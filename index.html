@@ -25,10 +25,10 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar nav bg-terzo p-3">
       <div class="container-fluid">
         <a class="navbar-brand fs-3" href="#"
-          ><strong>Giuseppe Pannone</strong></a
+          ><strong class="color-secondary">Giuseppe Pannone</strong></a
         >
         <ul class="d-flex list-unstyled gap-3 mb-0">
           <li><a href="" class="text-decoration-none">About Me</a></li>
@@ -39,11 +39,11 @@
       </div>
     </nav>
     <!-- Hero Section -->
-    <header>
+    <header class="p-4">
       <div class="container mt-5 mb-5">
         <div class="row">
-          <div class="col-6 about_me">
-            <h2 class="mb-4">About me</h2>
+          <div class="col-lg-6 col-sm-12 about_me p-5">
+            <h2 class="mb-4">About Me</h2>
             <p>
               Ciao, mi chiamo <strong>Giuseppe Pannone</strong>, sono un Full
               Stack Developer, e sono contento della tua visita!
@@ -54,28 +54,60 @@
               mondo che la mia curiosità è ansiosa di esplorare.
             </p>
             <p>Le mie competenze sono:</p>
-            <ul class="list-unstyled">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>PHP</li>
-              <li>Laravel</li>
-              <li>Java</li>
-              <li>MySQL</li>
-              <li>PostgreSQL</li>
-              <li>React</li>
-              <li>Bootstrap</li>
+            <ul class="list-unstyled mb-5">
+              <div class="d-flex gap-3 mb-4">
+                <span
+                  ><i class="fa-brands fa-html5 fa-3x p-3"></i
+                  ><strong> HTML</strong></span
+                >
+                <span
+                  ><i class="fa-brands fa-css3-alt fa-3x p-3"></i
+                  ><strong> CSS</strong></span
+                >
+                <span
+                  ><i class="fa-brands fa-js fa-3x p-3"></i
+                  ><strong> JavaScript</strong></span
+                >
+                <span
+                  ><i class="fa-brands fa-php fa-3x p-3"></i
+                  ><strong class="ps-4"> PHP</strong></span
+                >
+                <span
+                  ><i class="fa-brands fa-laravel fa-3x p-3"></i
+                  ><strong> Laravel</strong></span
+                >
+                <span
+                  ><i class="fa-brands fa-java fa-3x p-3"></i
+                  ><strong> Java</strong></span
+                >
+                <span
+                  ><i class="fa-solid fa-database fa-3x p-3"></i
+                  ><strong> MySQL</strong></span
+                >
+                <span
+                  ><i class="fa-solid fa-database fa-3x p-3"></i
+                  ><strong> PostgreSQL</strong></span
+                >
+                <span
+                  ><i class="fa-brands fa-react fa-3x p-3"></i
+                  ><strong> React</strong></span
+                >
+                <span
+                  ><i class="fa-brands fa-bootstrap fa-3x p-3"></i
+                  ><strong> Bootstrap</strong></span
+                >
+              </div>
             </ul>
-            <p>
-              Se vuoi metterti in contatto con me, non esitare a contattarmi!
-            </p>
+            <p>Se vuoi collaborare con me, non esitare a contattarmi!</p>
             <div class="d-flex gap-3 justify-content-center align-items-center">
               <button class="btn btn-primary">Contattami</button>
             </div>
           </div>
-          <div class="col-6 d-flex justify-content-center align-items-center">
+          <div
+            class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center p-5"
+          >
             <img
-              src="/img/IMG-20250209-WA0009.jpg"
+              src="https://picsum.photos/200/300"
               alt="foto di Giuseppe Pannone"
               class="img-fluid personal-image"
             />
@@ -83,7 +115,82 @@
         </div>
       </div>
     </header>
+    <!-- main -->
+    <main>
+      <!-- Projects -->
+      <section class="vh-100 mt-5 mb-5 p-5">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-12 d-flex justify-content-center align-items-center"
+            >
+              <h2 class="mb-4">Progetti</h2>
+            </div>
+          </div>
+        </div>
+        <div class="projects-container mt-3">
+          <ul class="list-unstyled d-flex flex-column gap-4">
+            <li class="fs-4">
+              <strong class="text-uppercase">Omnifood Project:</strong>
+              Un progetto composto solo da HTML e CSS che riguarda un sito che
+              pianifica calendari alimentari:
+              <a href="">https://github.com/Pannono/omnifood-project-Pannone</a>
+            </li>
+            <li class="fs-4">
+              <strong class="text-uppercase">The Aulab Post:</strong>
+              Un progetto frontend (HTML, CSS e JavaScript) e backend(PHP,
+              Laravel e MySQL) che simula un sito di informazione:
+              <a href="">https://github.com/Pannono/aulab_post_Pannone</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Contattami -->
+      <section class="mt-5 mb-5 p-5">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-12 d-flex justify-content-center align-items-center"
+            >
+              <h2 class="mb-4">Mettiti in contatto con me!</h2>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <ul class="d-flex list-unstyled gap-4 mb-0 fs-1">
+            <li>
+              <a href="https://www.instagram.com/pannon96/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/giuseppe.pannone.37"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/giuseppe-pannone-abb805194/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/Pannono" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
     <!-- JavaScript -->
+    <script
+      src="https://kit.fontawesome.com/4b9b69cf48.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
